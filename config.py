@@ -25,7 +25,7 @@ class Config:
         self.SESSION3 = getenv("SESSION3", None)
 
 
-        self.SUPPORT_CHANNEL = getenv("https://t.me/SmileHappy151102")
+        self.SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SmileHappy151102")
         self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Myanmar_2002")
         
         self.AUTO_LEAVE: bool = False
