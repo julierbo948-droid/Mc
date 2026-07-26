@@ -25,8 +25,8 @@ class Config:
         self.SESSION3 = getenv("SESSION3", None)
 
 
-        self.SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/myanmarbot_music")
-        self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/myanmar_music_Bot2027")
+        self.SUPPORT_CHANNEL = getenv("https://t.me/SmileHappy151102")
+        self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Myanmar_2002")
         
         self.AUTO_LEAVE: bool = False
         self.AUTO_END: bool = False
@@ -43,9 +43,9 @@ class Config:
         ]
 
        
-        self.DEFAULT_THUMB = getenv("DEFAULT_THUMB", "https://files.catbox.moe/jebxwm.jpg")
-        self.PING_IMG = getenv("PING_IMG", "https://files.catbox.moe/wz4ndo.jpg")
-        self.START_IMG = getenv("START_IMG", "https://files.catbox.moe/83zj85.jpg")
+        self.DEFAULT_THUMB = getenv("DEFAULT_THUMB", "https://files.catbox.moe/u41ef6.jpg")
+        self.PING_IMG = getenv("PING_IMG", "https://files.catbox.moe/u41ef6.jpg")
+        self.START_IMG = getenv("START_IMG", "https://files.catbox.moe/u41ef6.jpg")
         
     def check(self):
         missing = [
